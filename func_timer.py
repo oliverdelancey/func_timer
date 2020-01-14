@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""func_timer v0.01 Copyright Oliver Sandli 2020"""
+"""func_timer v0.01 @ Oliver Sandli 2020"""
 
 import argparse
 import os
