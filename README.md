@@ -35,3 +35,6 @@ python func_timer.py source_file_to_input.py
 #or
 ./func_timer.py source_file_to_input.py
 ```
+Example output; generated HTML converted to PNG due to README limitations:
+
+![example.png](https://github.com/oliversandli/func_timer/blob/master/examples/example.png)
