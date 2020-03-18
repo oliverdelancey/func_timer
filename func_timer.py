@@ -92,6 +92,13 @@ td {{
         <td>{ts}</td>
     </tr>
 """
-    htm += "</body>\n</html>"
+    htm += f"""</table>
+<h2>Global Measurements</>
+<p>Fastest peak function: {min(peak_min)}</p>
+<p>Slowest peak function: {max(peak_max)}</p>
+<p>Fastest average function: {min(avgs)}</p>
+<p>Slowest average function: {max(avgs)}</p>
+</body>
+</html>"""
     with open(f"{pargs.file}_report.htm", "w") as f:
         f.write(htm)
